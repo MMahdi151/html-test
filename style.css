@@ -10,8 +10,7 @@ p {
 /*
 article header p {
   font-style: italic;
-}
-*/
+}*/
 #author {
   font-style: italic;
 }
@@ -32,6 +31,17 @@ h3 {
 
 h4 {
   font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.related {
+  list-style: none;
+}
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
 }
 
 li {
@@ -43,6 +53,10 @@ p {
   line-height: 1.5;
 }
 
+/*
 footer p {
+  font-size: 16px;
+}*/
+#copyright {
   font-size: 16px;
 }
