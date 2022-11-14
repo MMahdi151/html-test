@@ -13,8 +13,18 @@ body {
   /*background-color: olive;*/
 }
 
+nav a {
+  margin-right: 20px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+nav a:last-child {
+  margin-right: 0px;
+}
+
 .container {
-  width: 700px;
+  width: 800px;
   margin: 0px auto;
 }
 
@@ -155,6 +165,7 @@ a:active {
 footer p {
   font-size: 16px;
 }*/
+
 #copyright {
   font-size: 16px;
 }
