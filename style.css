@@ -157,7 +157,7 @@ a:hover {
 }
 
 a:active {
-  background-color: red;
+  background-color: black;
   font-style: italic;
 }
 
