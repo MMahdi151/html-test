@@ -19,7 +19,6 @@ nav a {
 
 nav {
   font-size: 18px;
-  text-align: center;
 }
 
 nav a:last-child {
@@ -52,7 +51,7 @@ article p:first-child {
   padding-right: 40px;*/
   padding: 20px 40px;
   margin-bottom: 60px;
-  height: 80px;
+  /*height: 80px;*/
 }
 
 h1,
@@ -190,9 +189,10 @@ h1::first-letter {
   margin-right: 5px;
 }
 
+/*
 h3+p::first-line {
-  /*color: red*/
-}
+  color: red
+}*/
 
 /*
 footer p {
@@ -210,4 +210,34 @@ button {
   position: absolute;
   bottom: 50px;
   right: 50px;
+}
+
+/*Floats*/
+.author-img {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.author {
+  float: left;
+  margin-left: 20px;
+  padding-top: 10px;
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+/*
+.clear {
+  clear: both;
+}*/
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
 }
