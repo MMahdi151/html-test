@@ -11,14 +11,14 @@ body {
   position: relative;
 }
 
+nav {
+  font-size: 18px;
+}
+
 nav a {
   margin-right: 20px;
   margin-top: 10px;
   display: inline-block;
-}
-
-nav {
-  font-size: 18px;
 }
 
 nav a:last-child {
@@ -26,22 +26,8 @@ nav a:last-child {
 }
 
 .container {
-  width: 800px;
+  width: 1200px;
   margin: 0px auto;
-}
-
-article {
-  margin-bottom: 60px;
-}
-
-/*Misconception*/
-article p:first-child {
-  color: red;
-}
-
-.post-img {
-  width: 100%;
-  height: auto;
 }
 
 .main-header {
@@ -54,16 +40,29 @@ article p:first-child {
   /*height: 80px;*/
 }
 
+article {
+  margin-bottom: 60px;
+}
+
+/*
+article header p {
+  font-style: italic;
+}*/
+
+/*Misconception*/
+article p:first-child {
+  color: red;
+}
+
+.post-img {
+  width: 100%;
+  height: auto;
+}
+
 h1,
 h2,
 h3 {
   color: #1098ad;
-}
-
-ul,
-ol {
-  margin-left: 50px;
-  margin-bottom: 20px;
 }
 
 h1 {
@@ -89,11 +88,6 @@ h4 {
   text-transform: uppercase;
 }
 
-/*
-article header p {
-  font-style: italic;
-}*/
-
 #author {
   font-style: italic;
 }
@@ -107,19 +101,6 @@ article header p {
   font-weight: bold;
 }
 
-li {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-li:last-child {
-  margin-bottom: 0;
-}
-
-p {
-  font-size: 22px;
-  line-height: 1.5;
-}
 
 aside {
   background-color: #f7f7f7;
@@ -129,6 +110,26 @@ aside {
   padding-bottom: 50px;*/
   padding: 50px 0;
   width: 500px;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+li {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  margin-bottom: 0;
 }
 
 li:first-child {
@@ -143,7 +144,9 @@ li:last-child {
 li:nth-child(2) {
   color: red;
 }
+
 */
+
 /*Links*/
 a:link {
   color: #1098ad;
@@ -164,6 +167,8 @@ a:active {
   background-color: black;
   font-style: italic;
 }
+
+/*Pseudo*/
 
 h2 {
   /*background-color: orange;*/
@@ -194,14 +199,14 @@ h3+p::first-line {
   color: red
 }*/
 
+#copyright {
+  font-size: 16px;
+}
+
 /*
 footer p {
   font-size: 16px;
 }*/
-
-#copyright {
-  font-size: 16px;
-}
 
 button {
   font-size: 22px;
@@ -213,6 +218,7 @@ button {
 }
 
 /*Floats*/
+
 .author-img {
   float: left;
   margin-bottom: 20px;
@@ -236,8 +242,23 @@ nav {
 .clear {
   clear: both;
 }*/
+
 .clearfix::after {
   content: "";
   clear: both;
   display: block;
+}
+
+article {
+  width: 825px;
+  float: left;
+}
+
+aside {
+  width: 300px;
+  float: right;
+}
+
+footer {
+  clear: both;
 }
