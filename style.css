@@ -17,6 +17,11 @@ nav a {
   display: inline-block;
 }
 
+nav {
+  font-size: 18px;
+  text-align: center;
+}
+
 nav a:last-child {
   margin-right: 0px;
 }
