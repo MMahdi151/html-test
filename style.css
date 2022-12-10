@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -86,6 +87,7 @@ h4 {
   font-size: 20px;
   text-align: center;
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
 #author {
@@ -94,6 +96,7 @@ h4 {
 
 .related {
   list-style: none;
+  margin-left: 0;
 }
 
 .related-author {
@@ -106,10 +109,7 @@ aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
-  /*padding-top: 50px;
-  padding-bottom: 50px;*/
-  padding: 50px 0;
-  width: 500px;
+  padding: 50px 40px;
 }
 
 p {
