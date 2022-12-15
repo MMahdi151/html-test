@@ -40,9 +40,17 @@
       background-color: crimson;
     }
 
+    .el {
+      /*flex-basis: 100px;
+      flex-shrink: 0;
+      flex-grow: 1;*/
+      flex: 1 0 100px;
+    }
+
     .el--1 {
       align-self: flex-start;
       /*order: 2;*/
+      flex-grow: 112;
     }
 
     .el--5 {
@@ -65,7 +73,7 @@
       display: flex;
       align-items: center;
       justify-content: flex-start;
-      gap: 30px;
+      /*gap: 30px;*/
     }
   </style>
 </head>
