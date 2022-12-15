@@ -40,6 +40,20 @@
       background-color: crimson;
     }
 
+    .el--1 {
+      align-self: flex-start;
+      /*order: 2;*/
+    }
+
+    .el--5 {
+      align-self: stretch;
+      order: 1;
+    }
+
+    .el--6 {
+      order: -1;
+    }
+
     .container {
       /* STARTER */
       font-family: sans-serif;
@@ -50,7 +64,8 @@
       /* FLEXBOX */
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      justify-content: flex-start;
+      gap: 30px;
     }
   </style>
 </head>
@@ -63,8 +78,8 @@
     <div class="el el--4">are</div>
     <div class="el el--5">amazing</div>
     <div class="el el--6">languages</div>
-    <div class="el el--7">to</div>
-    <div class="el el--8">learn</div>
+    <!--<div class="el el--7">to</div>
+    <div class="el el--8">learn</div>-->
   </div>
 </body>
 
